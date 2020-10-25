@@ -24,7 +24,7 @@ public class Problem6 {
         startingPosition = endingPosition - maxEnd + 1;
         String result = "";
         
-        //String between starting and ending position will give the required sunstring 
+        //String between starting and ending position will give the required substring 
         for(int i=startingPosition;i<=endingPosition;i++){
             result = result + s.charAt(i);
         }
